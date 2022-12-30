@@ -30,20 +30,20 @@ public class BasicNavigations {
         System.out.println("currentURL = " + currentURL);
 
         //Stop code execution for 3 seconds
-        Thread.sleep(3000);
+        //Thread.sleep(3000);
 
 
         //use selenium to navigate back
         driver.navigate().back();
 
         //Stop code execution for 3 seconds
-        Thread.sleep(3000);
+        //Thread.sleep(3000);
 
         //use selenium to navigate forward
         driver.navigate().forward();
 
         //Stop code execution for 3 seconds
-        Thread.sleep(3000);
+       // Thread.sleep(3000);
 
         //use selenium to refresh
         driver.navigate().refresh();
