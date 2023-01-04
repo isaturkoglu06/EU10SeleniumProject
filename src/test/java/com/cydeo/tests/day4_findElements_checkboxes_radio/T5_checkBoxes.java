@@ -34,7 +34,7 @@ public class T5_checkBoxes {
         //5. Click checkbox #2 to deselect it.
         Thread.sleep(2000);
         checkbox2.click();
-
+        
         //6. Confirm checkbox #1 is SELECTED.
         System.out.println("checkbox1.isSelected(), expecting true = " + checkbox1.isSelected());
 
