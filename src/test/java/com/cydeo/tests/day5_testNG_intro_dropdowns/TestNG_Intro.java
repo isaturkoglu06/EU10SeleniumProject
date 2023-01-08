@@ -13,8 +13,8 @@ public class TestNG_Intro {
         String expected= "apple";
         String expected2= "apple1";
 
-        Assert.assertEquals(actual, expected);
-        Assert.assertEquals(actual, expected2);
+        Assert.assertEquals(actual, expected, "write a message in here!");
+        Assert.assertEquals(actual, expected2, "write a message in here!");
 
         Assert.assertTrue(actual.equals(expected2));
     }
