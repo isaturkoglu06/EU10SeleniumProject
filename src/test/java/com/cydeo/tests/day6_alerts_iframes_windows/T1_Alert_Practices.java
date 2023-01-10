@@ -5,7 +5,6 @@ import org.testng.*;
 import org.testng.annotations.*;
 
 import java.util.concurrent.*;
-
 public class T1_Alert_Practices {
 
     WebDriver driver;
