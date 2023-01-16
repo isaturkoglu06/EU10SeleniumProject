@@ -9,7 +9,7 @@ public class WebTableUtils {
     //• Return type: String
     //• Arg1: WebDriver driver
     //• Arg2: String costumerName
-    //This method should accept a costumerName and return the costumer order date
+    //This method should accept a costumerName and return the customer order date
     //as a String.
 
     public static String returnOrderDate(WebDriver driver, String customerName){
