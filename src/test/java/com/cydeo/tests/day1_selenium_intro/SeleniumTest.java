@@ -13,13 +13,10 @@ public class SeleniumTest {
         WebDriverManager.chromedriver().setup();
 
         //2- Create instance of the chrome driver
-        WebDriver driver= new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
 
         //3- Test if driver is working as expected
         driver.get("https://www.facebook.com");
-
-
-
 
     }
 }

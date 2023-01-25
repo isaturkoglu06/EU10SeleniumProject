@@ -1,13 +1,12 @@
 package com.cydeo.tests.day4_findElements_checkboxes_radio;
 
-import com.cydeo.tests.utilities.WebDriverFactory;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.cydeo.tests.utilities.*;
+import org.openqa.selenium.*;
 
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
-public class T5_checkBoxes {
+public class T5_checkboxes {
+
     public static void main(String[] args) throws InterruptedException {
 
         //Practice: Checkboxes
@@ -34,7 +33,7 @@ public class T5_checkBoxes {
         //5. Click checkbox #2 to deselect it.
         Thread.sleep(2000);
         checkbox2.click();
-        
+
         //6. Confirm checkbox #1 is SELECTED.
         System.out.println("checkbox1.isSelected(), expecting true = " + checkbox1.isSelected());
 
@@ -53,6 +52,8 @@ public class T5_checkBoxes {
 //        }else{
 //            System.out.println("verification fail");
 //        }
+
+        //BREAK UNTIL 3.10CST
 
     }
 }

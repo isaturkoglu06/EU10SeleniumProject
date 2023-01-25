@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class T2_Linktext_Practice {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
         //TC #3: Back and forth navigation
         //1- Open a Chrome browser
@@ -17,7 +17,6 @@ public class T2_Linktext_Practice {
         driver.manage().window().maximize();
 
         //2- Go to: https://practice.cydeo.com
-
         driver.get("https://practice.cydeo.com");
 
         //3- Click to A/B Testing from top of the list.
@@ -51,13 +50,10 @@ public class T2_Linktext_Practice {
             System.out.println("Title verification FAILED!!!");
         }
 
-
-
-
-
-        driver.close();
-        driver.quit();
+        //BREAK UNTIL 1.01PM CST
+        //BREAK UNTIL 2.01PM EST
 
 
     }
+
 }

@@ -1,4 +1,5 @@
 package com.cydeo.tests.utilities;
+
 import org.openqa.selenium.*;
 
 public class CRM_Utilities {

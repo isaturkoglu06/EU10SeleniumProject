@@ -1,4 +1,5 @@
 package com.cydeo.tests.utilities;
+
 import org.openqa.selenium.*;
 import org.testng.*;
 
@@ -9,13 +10,13 @@ public class WebTableUtils {
     //• Return type: String
     //• Arg1: WebDriver driver
     //• Arg2: String costumerName
-    //This method should accept a costumerName and return the customer order date
+    //This method should accept a costumerName and return the costumer order date
     //as a String.
 
     public static String returnOrderDate(WebDriver driver, String customerName){
-        String locator = "//td[.='"+customerName+"']/following-sibling::td[3]";
-        WebElement customerDateCell = driver.findElement(By.xpath(locator));
-        return customerDateCell.getText();
+       String locator = "//td[.='"+customerName+"']/following-sibling::td[3]";
+       WebElement customerDateCell = driver.findElement(By.xpath(locator));
+       return customerDateCell.getText();
     }
 
 //    public static String returnOrderDate2(WebDriver driver, String customerName){

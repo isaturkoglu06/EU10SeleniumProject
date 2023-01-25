@@ -1,10 +1,12 @@
 package com.cydeo.tests.day6_alerts_iframes_windows;
+
 import com.cydeo.tests.utilities.*;
 import org.openqa.selenium.*;
 import org.testng.*;
 import org.testng.annotations.*;
 
 import java.util.concurrent.*;
+
 public class T1_Alert_Practices {
 
     WebDriver driver;

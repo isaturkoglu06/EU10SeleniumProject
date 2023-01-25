@@ -1,4 +1,5 @@
 package com.cydeo.tests.utilities;
+
 import io.github.bonigarcia.wdm.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
@@ -43,7 +44,7 @@ public class Driver {
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
                     driver.manage().window().maximize();
-                    //   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                 //   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                     break;
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();

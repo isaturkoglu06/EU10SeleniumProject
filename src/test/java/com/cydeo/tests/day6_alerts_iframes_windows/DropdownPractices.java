@@ -1,4 +1,5 @@
 package com.cydeo.tests.day6_alerts_iframes_windows;
+
 import com.cydeo.tests.utilities.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
@@ -54,7 +55,7 @@ public class DropdownPractices {
         Select dayDropdown = new Select(driver.findElement(By.xpath("//select[@id='day']")));
 
         //Select year using : visible text
-        yearDropdown.selectByVisibleText("1928");
+        yearDropdown.selectByVisibleText("1923");
 
         //Select month using : value attribute
         monthDropdown.selectByValue("11");
@@ -63,7 +64,7 @@ public class DropdownPractices {
         dayDropdown.selectByIndex(0);
 
         //creating expected values
-        String expectedYear = "1928";
+        String expectedYear = "1923";
         String expectedMonth = "December";
         String expectedDay = "1";
 

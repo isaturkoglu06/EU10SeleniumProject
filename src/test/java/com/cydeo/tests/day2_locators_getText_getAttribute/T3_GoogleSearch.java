@@ -10,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class T3_GoogleSearch {
 
     public static void main(String[] args) {
-
         //TC#3: Google search
         //1- Open a Chrome browser
         WebDriverManager.chromedriver().setup();
@@ -35,9 +34,10 @@ public class T3_GoogleSearch {
         }else{
             System.out.println("Title verification FAILED!!!");
         }
-        driver.close();
-        driver.quit();
+
 
 
     }
+
+
 }
