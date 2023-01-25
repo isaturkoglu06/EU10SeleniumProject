@@ -1,5 +1,4 @@
 package com.cydeo.tests.utilities;
-
 /*
 In this class only general utility methods that are NOT related to some specific page.
  */
@@ -17,7 +16,7 @@ public class BrowserUtils {
     for given duration
      */
     public static void sleep(int second){
-            second *=1000;
+        second *=1000;
         try {
             Thread.sleep(second);
         }catch (InterruptedException e ) {
